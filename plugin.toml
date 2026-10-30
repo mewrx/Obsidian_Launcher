@@ -1,0 +1,26 @@
+id = "local/obsidian"
+name = "Obsidian"
+version = "0.1.0"
+plugin_api = 24
+author = "eno"
+license = "MIT"
+icon = "notebook"
+description = "Obsidian daily note and note search launcher"
+tags = ["launcher", "productivity"]
+dependencies = []
+
+[[launcher_provider]]
+id = "day"
+entry = "day_launcher.luau"
+prefix = "day"
+glyph = "calendar"
+include_in_global_search = true
+debounce_ms = 0
+
+[[launcher_provider]]
+id = "obs"
+entry = "obs_launcher.luau"
+prefix = "obs"
+glyph = "notebook"
+include_in_global_search = true
+debounce_ms = 80

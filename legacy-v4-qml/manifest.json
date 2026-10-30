@@ -1,0 +1,11 @@
+{
+  "id": "obsidian",
+  "name": "Obsidian",
+  "version": "0.1.0",
+  "author": "eno",
+  "description": "Obsidian daily notes (/day) and note search (/obs) in the launcher",
+  "minNoctaliaVersion": "3.9.0",
+  "entryPoints": {
+    "launcherProvider": "LauncherProvider.qml"
+  }
+}
